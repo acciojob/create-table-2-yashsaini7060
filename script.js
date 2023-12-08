@@ -1,5 +1,5 @@
 function createTable() {
-	let cn = parseInt(prompt("Input number of rows"));
+	let rn = parseInt(prompt("Input number of rows"));
 	let cn = parseInt(prompt("Input number of columns"));
 	let table = document.getElementById("myTable");
 	table.innerHTML="";
