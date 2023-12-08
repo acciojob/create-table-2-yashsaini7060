@@ -5,10 +5,10 @@ function createTable() {
 	
 	for(let i=0; i<rn; i++){
 		
-		let row=documentcreateElement("tr");
+		let row=document.createElement("tr");
 		
 		for(let j=0; j<cn; j++){
-			let coulmn=documentcreateElement("td");
+			let coulmn=document.createElement("td");
 			coulmn.innerText= "Row-"+i+" Column-"+j;
 			row.appendChild(coulmn);
 		}
